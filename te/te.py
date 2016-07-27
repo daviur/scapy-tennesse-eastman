@@ -114,3 +114,4 @@ def extend_cip_bindings(self, payload):
 
 cip.CIP.guess_payload_class = extend_cip_bindings 
 scapy_all.bind_layers(cip.CIP, TE_FCN_CONTROLS, direction=0, service=0x4d)
+
